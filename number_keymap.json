@@ -1,0 +1,215 @@
+{
+  "title": "テンキー系のキーマップ",
+  "rules": [
+    {
+      "description": "「right_option + spacebar」で「0」を送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "n",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "「right_option + m」で「1」を送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "m",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "「right_option + comma」で「2」を送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "comma",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "「right_option + period」で「3」を送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "period",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "「right_option + j」で「4」を送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "「right_option + k」で「5」を送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "「right_option + l」で「6」を送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "l",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "「right_option + u」で「7」を送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "u",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "「right_option + i」で「8」を送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "i",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "「right_option + o」で「9」を送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "o",
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "9"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
