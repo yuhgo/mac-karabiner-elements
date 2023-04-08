@@ -28,11 +28,11 @@
       ]
     },
     {
-      "description": "「control + c」で「clear」入力",
+      "description": "「right_control + c」で「clear」入力",
       "manipulators": [
         {
           "type": "basic",
-          "from": { "key_code": "left_control" },
+          "from": { "key_code": "right_control" },
           "to": [
             {"key_code": "c"},
             {"key_code": "l"},
@@ -41,7 +41,7 @@
             {"key_code": "r"}
           ],
           "conditions": [
-            { "type": "variable_if", "name": "left_control_key", "value": 1 }
+            { "type": "variable_if", "name": "right_control_key", "value": 1 }
           ]
         },
         {
